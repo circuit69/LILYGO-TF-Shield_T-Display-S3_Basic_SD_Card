@@ -22,7 +22,7 @@
 
 unsigned long sdDelay = 15000;  //15 second delay between writing to sd card
 unsigned long sdTrigTime;// = millis() + sdDelay;
-const char path[] = "/logs7.txt";   //filename to use on the sd card
+const char path[] = "/logs10.txt";   //filename to use on the sd card
 int sdWrite = 0;      //number of record written since boot
 
 #include <TFT_eSPI.h> // Graphics library for the display

@@ -2,7 +2,7 @@
    Lilygo T-Display-S3 with a Lilygo TF Card Shield
    Basic writing of millisseconds and a random number to an
    SD card and then reading the file to the serial monitor
-   The display is used in this sketch and is turned off
+   The display is connected in this sketch and is turned off
  ****************************************************/
 #define PIN_BUTTON_1    0
 #define PIN_BUTTON_2    14
