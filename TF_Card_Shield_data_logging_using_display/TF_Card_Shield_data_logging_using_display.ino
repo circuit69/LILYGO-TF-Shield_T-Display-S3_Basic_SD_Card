@@ -61,7 +61,7 @@ void setup() {
   }
   //end of the required setup
 
-  //optional sd card info sent to the serial minitor
+  //optional sd card info sent to the serial monitor
   uint8_t cardType = SD_MMC.cardType();
   if (cardType == CARD_NONE) {
     Serial.println("No SD_MMC card attached");
